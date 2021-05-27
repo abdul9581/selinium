@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="batchSuite">
+  <test thread-count="5" name="batchTest">
+    <classes>
+      <class name="mavenpack.seliniumproject.LinksTesting1"/>
+      <class name="mavenpack.seliniumproject.RadioButton1"/>
+      <class name="mavenpack.seliniumproject.checkbox1"/>
+      <class name="mavenpack.seliniumproject.TNG_002"/>
+    </classes>
+  </test> <!-- batchTest -->
+</suite> <!-- batchSuite -->
